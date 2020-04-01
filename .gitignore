@@ -1,0 +1,11 @@
+env/
+env/*  #игнорируем вирт.окр
+.idea/
+.idea/*  #pycharm
+.vscode/
+.vscode/* 
+__pycache__/
+__pycache__/*
+db.sqlite3
+.env
+

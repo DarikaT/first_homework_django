@@ -1,0 +1,20 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block title %} Contact us {% endblock %}
+
+{% block content %}
+
+<div class="wrapper_first">
+    <div class="wrapper_second">
+        <div class="text_contacts">
+                {% for i in read_contacts %}
+                   
+                        <h3>{{ i }}</h3>
+                    
+                {% endfor %}
+        </div>
+    </div> 
+</div>       
+
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block title %} Gallery :) {% endblock %}
+
+{% block content %}
+
+    <div class="wrapper_first">
+        <div class="wrapper_second">
+            
+            {% for image in object_list %}
+
+            <div class="post_title">
+                <ul>
+                    <h3>{{ image.title }}</h3>
+                </ul>
+            </div>
+
+            <div class="col-md-10 blogShort">
+                <img style="height: 200px" src="{{image.image.url}}"  class="pull-left img-responsive thumb margin20 img-thumbnail">
+            </div>
+
+            <div class="post_text">
+                <p>{{ image.text }}</p>
+            </div>
+
+            {% endfor %}
+            
+            
+                
+            
+        </div> 
+    </div>       
+
+
+{% endblock %}
+

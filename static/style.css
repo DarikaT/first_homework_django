@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display:flex;
+    width: 100%;
+    font-family: 'Roboro', sans-serif;
+    /* font-weight: bold; */
+    background: #222222;
+    font-size: 20px;
+}
+
+#navbar:hover,
+#navbar:focus {
+    opacity: 0.8;
+    background: tomato;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link:hover {
+    color: yellow
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: yellow;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: darkcyan;
+}
+
+
+.navbar-brand{
+    position: flex;
+    padding-left: 40%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #FF826C;
+    padding: 45px 0 30px 0;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.849);
+    text-transform: uppercase;
+    font-family: 'Roboro', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.wrapper_first {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wrapper_second {
+    background: rgba(255, 255, 255, 0.849);
+    text-align: center;
+    padding: 200px 70px 310px 70px;
+}
+
+.home_text p {
+    font-size: 20px;
+}
+
+.text_contacts h3{
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.post_title {
+    margin-bottom: 50px;
+
+}
+
+.post_text {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.col-md-10 {
+    margin-left: 100px;
+}
